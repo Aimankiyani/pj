@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+
+.banner{
+    background-image: url('../public/work/mehandi11.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    
+}
+.inside{
+    background-color: rgba(0, 0,0,0.5);
+    height: 100vh;
+}
+.val{
+    color: orange;
+}
+
+.color{
+    color: #d6a184; 
+}
+.main{
+    margin: 150px;
+
+}
+.pera{
+   color: rgb(1, 156, 218);
+   padding-top: 40px;
+}
+.card{
+   background: url("../public/work/vertical4.jpg");
+   width: 100%;
+   height: 75vh;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+
+.insidecard{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+
+.booking{
+   display: none;
+}
+.butt{
+   text-decoration: none;
+}
+.card:hover .booking{
+display: block;
+margin: auto;
+text-decoration: none;
+}
+
+.writing{
+   color: rgb(255, 255, 255);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clases{
+   background: url("../public/work/vertical23.jpg");
+   width: 100%;
+   height: 75vh;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+.clases:hover .booking{
+   display: block;
+   margin: auto;
+   text-decoration: none;
+   }
+   .changingimg{
+   cursor: pointer;
+   }
+.colour{
+    color: #c57b53;
+}
+.imageparent{
+    display: none;
+}
+.padd{
+    padding: 62px;
+}
